@@ -12,8 +12,8 @@ graph TD;
 
 ```mermaid
 graph TD;
-  B-->A;
-  A-->C;
+  A-->B;
+  B-->C;
   C-->D;
   D-->B;
   ```

@@ -1,4 +1,14 @@
 # oop-workshop
 
-Jakob er gay
 Workshop exercise.
+
+---
+config:
+  htmlLabels: false
+---
+flowchart LR
+    markdown["`This **is** _Markdown_`"]
+    newLines["`Line1
+    Line 2
+    Line 3`"]
+    markdown --> newLines

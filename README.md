@@ -9,11 +9,3 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
-```mermaid
-graph TD;
-  A-->B;
-  B-->C;
-  C-->D;
-  D-->A;
-  ```

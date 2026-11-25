@@ -1,27 +1,29 @@
-interface IRatable{
+namespace Domain.Interfaces;
+
+public interface IRatable{
 
 }
-interface IDownloadable{
+public interface IDownloadable{
+string Download();
+}
+public interface IPlayable{
 
 }
-interface IPlayable{
+public interface IViewable{
 
 }
-interface IViewable{
+public interface IReadable{
 
 }
-interface IReadable{
+public interface ICompleteable{
 
 }
-interface ICompleteable{
+public interface IExecuteable{
 
 }
-interface IExecuteable{
+public interface IListenable{
 
 }
-interface IListenable{
-
-}
-interface IDisplayable{
+public interface IDisplayable{
 
 }
